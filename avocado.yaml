@@ -36,7 +36,7 @@ extensions:
     # Confext overlay — ships /etc/hostname so the device identifies as
     # `icam-540` on the carrier instead of inheriting the SOM's
     # MACHINE-derived `avocado-jetson-orin-nx` default. Path is relative
-    # to this extension's src_dir (avocado-os/bsp/icam-540/).
+    # to this extension's src_dir (the root of this repository).
     overlay: overlay
 
     modprobe:
